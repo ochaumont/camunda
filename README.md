@@ -24,6 +24,7 @@ To reproduce the issue, follow the following steps:
 
 *   **Step 5:** Open your browser on 'BPMN viewer demo' tabsheet.
 The BPMN diagram is not displayed and the following error appears on the console:
+> 
 
     ERROR TypeError: this._createContainer is not a function
         at xl.nt (Viewer.js.pre-build-optimizer.js:122)
