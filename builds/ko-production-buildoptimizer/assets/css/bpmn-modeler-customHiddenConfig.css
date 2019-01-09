@@ -1,0 +1,20 @@
+/* line 137, styles/app.less */
+.djs-palette.open {
+    display: none;
+  }
+  /* line 141, styles/app.less */
+  .djs-context-pad.open {
+    display: none;
+  }
+  /* line 146, styles/app.less */
+  .text {
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+    pointer-events: none;
+  }
