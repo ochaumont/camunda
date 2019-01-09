@@ -33,13 +33,13 @@ The BPMN diagram is not displayed and the following error appears on the console
 
 Notice that application is working well when application is built with :
 
-*  buildOptimizer = false &  optimization = false ( ng build --configuration=production-not-optimized )
-*  buildOptimizer = false &  optimization = true  ( ng build --configuration=production-optimized )
-*  buildOptimizer = true  &  optimization = false ( ng build --configuration=production-buildoptimizer )
+*  buildOptimizer = false &  optimization = false ( *ng build --configuration=production-not-optimized* )
+*  buildOptimizer = false &  optimization = true  ( *ng build --configuration=production-optimized* )
+*  buildOptimizer = true  &  optimization = false ( *ng build --configuration=production-buildoptimizer* )
 
 but not workking when buildOptimizer and optimization are both true with following command:
-*  ng build --configuration=production-optimized
+*  *ng build --configuration=production-optimized*
 or
-*  ng build --configuration=production-full
+*  *ng build --configuration=production-full*
 
 Why???
