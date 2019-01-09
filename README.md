@@ -18,17 +18,17 @@ Step 4 : Install an HTTP server and deploy the build on it:
 Step 5: Open your browser on 'BPMN viewer demo' tabsheet.
 The BPMN diagram is not displayed and the following error appears on the console:
 
-ERROR TypeError: this._createContainer is not a function
-    at xl.nt (Viewer.js.pre-build-optimizer.js:122)
-    at new xl (Modeler.js.pre-build-optimizer.js:129)
-    at t._next (bpmn-viewer.component.ts:33)
-    at t.__tryOrUnsub (Subscriber.js.pre-build-optimizer.js:196)
-    at t.next (Subscriber.js.pre-build-optimizer.js:134)
-    at t._next (Subscriber.js.pre-build-optimizer.js:77)
-    at t.next (Subscriber.js.pre-build-optimizer.js:54)
-    at t._next (map.js.pre-build-optimizer.js:41)
-    at t.next (Subscriber.js.pre-build-optimizer.js:54)
-    at t._next (filter.js.pre-build-optimizer.js:38)
+    ERROR TypeError: this._createContainer is not a function
+        at xl.nt (Viewer.js.pre-build-optimizer.js:122)
+        at new xl (Modeler.js.pre-build-optimizer.js:129)
+        at t._next (bpmn-viewer.component.ts:33)
+        at t.__tryOrUnsub (Subscriber.js.pre-build-optimizer.js:196)
+        at t.next (Subscriber.js.pre-build-optimizer.js:134)
+        at t._next (Subscriber.js.pre-build-optimizer.js:77)
+        at t.next (Subscriber.js.pre-build-optimizer.js:54)
+        at t._next (map.js.pre-build-optimizer.js:41)
+        at t.next (Subscriber.js.pre-build-optimizer.js:54)
+        at t._next (filter.js.pre-build-optimizer.js:38)
 
 
 Notice that application is working well when application is built with :
